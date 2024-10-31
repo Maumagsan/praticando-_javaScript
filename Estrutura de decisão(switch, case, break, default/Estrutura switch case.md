@@ -14,7 +14,7 @@ O Switch Case é uma maneira legal que o JavaScript tem de fazer escolhas. É co
 **Tópico: Exemplos de Switch Case em JavaScript**
 
 Vamos usar um exemplo para entender melhor. Vamos imaginar que estamos fazendo um programa sobre dias da semana e queremos mostrar o que você pode fazer em cada dia.
-
+```jsx
 let dia = "terça"; // Você pode mudar isso para outros dias.
 
 switch (dia) {
@@ -36,7 +36,7 @@ switch (dia) {
   default:
     console.log("Final de semana! Descanse e divirta-se!");
 }
-
+```
 Neste exemplo, o programa verifica qual é o valor da variável `dia` e, com base nisso, decide qual mensagem mostrar na tela. Se você mudar o valor de `dia`, verá mensagens diferentes aparecendo!
 
 **Tópico: Palavras-Chave Importantes do Switch Case**
